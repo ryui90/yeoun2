@@ -6,11 +6,10 @@ load_dotenv()
 TOKEN = os.getenv("DISCORD_TOKEN")
 DB_PATH = os.getenv("DB_PATH", "bot_data.db")
 
-# 서버 대표 컬러 (연초록 -> 노랑)
-COLOR_MAIN = 0xB6E68A
-COLOR_SUB = 0xFFD93D
-GRADIENT_START = (182, 230, 138)  # 연초록 RGB
-GRADIENT_END = (255, 217, 61)     # 노랑 RGB
+COLOR_MAIN = 0x71aeff
+COLOR_SUB = 0xcf98ff
+GRADIENT_START = (113, 174, 255)  # 연초록 RGB
+GRADIENT_END = (207, 152, 255)     # 노랑 RGB
 
 # 프로필 카드용 폰트 (한글 지원 폰트 필요 - README 참고)
 FONT_BOLD_PATH = "assets/fonts/NotoSansKR-Bold.ttf"
